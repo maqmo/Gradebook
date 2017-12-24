@@ -23,7 +23,7 @@ _Note: The above compilation command will generate the java class files directly
 
 2. Enter an assignment, if it is not an already created category, it will be rejected
 
-3. If not done already, enter students names and id numbers.
+3. If not done already, enter the names and id numbers of the students.
    - Enter each student one-by-one or via .csv file with columns _id_, _name_
 
 4. Enter scores for previously created assignment(s).
