@@ -1,23 +1,21 @@
 # GradeBook
-GradeBook is a program whose purpose is to demonstrates the use of an sqlite database through a Java interface using a unix based operating system. The program offers teh user
-the ability to store  the grades for various course assignments after entering the names of the students.
+GradeBook is a program whose purpose is to demonstrate the use of an sqlite database through a Java interface using a unix based operating system. The program offers the user the ability to store students' grades for various course assignments.
 
 ## Getting Started
 
 You can use the included SQLite library by adding the jar file to your class path and compiling the source code.
 
-### To Compile
+### To Compile and Execute
 From the command line, enter:
 ```
 javac -cp sqlite-jdbc-3.21.0.jar GradeBook.java CSVLoader.java DBController.java  
 ```
-
-### To Execute
+then enter:
 ```
 java -cp sqlite-jdbc-3.21.0.jar: Gradebook
 ```
 
-Note: The above compilation will generate the java class files into your **current working direcotory**
+_Note: The above compilation command will generate the java class files directly into your **current working direcotory**_
 
 ## Program Use:
 
