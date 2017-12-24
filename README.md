@@ -19,12 +19,12 @@ _Note: The above compilation command will generate the java class files directly
 
 ## Program Use:
 
-1.Enter an assignment category and give it a weight
+1. Enter an assignment category and give it a weight
 
-2.Enter an assignment, if it is not an already created category, it will be rejected
+2. Enter an assignment, if it is not an already created category, it will be rejected
 
-3.If not done already, enter students names and id numbers.
-  - Enter each student one-by-one or via .csv file with columns _id_, _name_
+3. If not done already, enter students names and id numbers.
+   - Enter each student one-by-one or via .csv file with columns _id_, _name_
 
 4. Enter scores for previously created assignment(s).
    - Enter the scores one-by-one or via .csv fiel with columsn: _id_, _score_, _assignment_
