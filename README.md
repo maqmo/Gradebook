@@ -7,23 +7,26 @@ the ability to store  the grades for various course assignments after entering t
 You can use the included SQLite library by adding the jar file to your class path and compiling the source code.
 
 ### To Compile
+From the command line, enter:
 ```
-javac sqlite-jdbc-3.21.0.jar: DBController.java 
+javac -cp sqlite-jdbc-3.21.0.jar GradeBook.java CSVLoader.java DBController.java  
 ```
 
 ### To Execute
 ```
-javac sqlite-jdbc-3.21.0.jar: DBController.java 
+java -cp sqlite-jdbc-3.21.0.jar: Gradebook
 ```
 
-PROGRAM USE:
+Note: The above compilation will generate the java class files into your **current working direcotory**
 
-You are encouraged to enter a list of students first but it is not mandatory.
+## Program Use:
 
-1.First enter an assignment category and give it a weight
+1.Enter an assignment category and give it a weight
 
-2.Enter an assignment, if it is not an already created category, it will be reje
+2.Enter an assignment, if it is not an already created category, it will be rejected
 
-3.If not done so, enter students, one-by-one or as a csv file (no quotation mark
+3.If not done already, enter students names and id numbers.
+  - Enter each student one-by-one or via .csv file with columns _id_, _name_
 
 4. Enter scores for previously created assignment(s).
+   - Enter the scores one-by-one or via .csv fiel with columsn: _id_, _score_, _assignment_
